@@ -21,6 +21,9 @@ public class Zoo {
         // TODO: Let's hear all the animals! Create a loop that iterates over the 'animals' list.
         //  Inside the loop, get each animal's name and then call its makeSound() method.
 
+        for(Animal animal : animals){
+            animal.makeSound();
+        }
         System.out.println("\nFeeding time is over.");
     }
 }
